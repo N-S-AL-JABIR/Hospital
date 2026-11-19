@@ -1,0 +1,88 @@
+body {
+  background-color: beige;
+  margin: auto;
+}
+nav {
+  background-color: rgb(171, 245, 245);
+}
+.smart-care{
+    font-family: "Carattere", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.menu {
+  font-size: 20px;
+  list-style: none;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+}
+.menu:hover {
+  color: rgb(89, 0, 255);
+  cursor: pointer;
+}
+
+.banner {
+  height: 400px;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(cyan, rgb(125, 187, 225));
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px gray;
+}
+.banner-left {
+  padding: 20px;
+}
+.banner-img {
+  width: 485px;
+  margin-top: -75px;
+  margin-right: 40px;
+}
+.banner-left {
+  align-items: center;
+}
+.title {
+  font-size: 44px;
+  color: rgb(133, 133, 250);
+}
+.doctors-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+}
+.doc-card {
+  width: 300px;
+  box-shadow: 3px 3px 7px gray;
+  border-radius: 5px;
+  padding: 5px;
+  background: azure;
+}
+.doctor-container {
+  width: 1300px;
+}
+#no-data {
+  display: none;
+}
+#loading {
+  display: none;
+}
+.review-card {
+  width: 300px;
+  /* box-shadow: 3px 3px 7px gray; */
+  border-radius: 5px;
+  padding: 5px;
+  background: azure;
+}
+.dropdown{
+  font-size: 10px;
+  list-style: none;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  cursor: pointer;
+}
+footer{
+  background: linear-gradient(cyan, rgb(125, 187, 225));
+  font-family: "Dancing Script", cursive;
+  list-style: none;
+}
